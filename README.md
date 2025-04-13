@@ -36,12 +36,11 @@ Kemudian ikuti instruksi yang muncul di terminal:
 
 - **AES (Advanced Encryption Standard)**
   - Menggunakan mode **CBC** (Cipher Block Chaining) untuk keamanan lebih baik.
-  - Kunci dienkripsi menggunakan SHA-256 sebelum digunakan.
 - **ChaCha20**
   - Algoritma stream cipher yang cepat dan aman.
-  - Digunakan untuk mengenkripsi hasil AES dan kunci Vigenere.
+  - Digunakan untuk mengenkripsi hasil AES.
 - **Vigenere Cipher**
-  - Digunakan untuk mengenkripsi password sebelum dienkripsi lebih lanjut dengan ChaCha20.
+  - Digunakan untuk mengenkripsi password yang digunakan untuk enkripsi AES dan Chacha20
 
 ## Contoh Penggunaan
 
