@@ -13,7 +13,7 @@ Shield adalah alat enkripsi file yang mengimplementasikan enkripsi berlapis meng
 Pastikan Anda memiliki Python 3 dan pustaka berikut yang diperlukan:
 
 ```bash
-pip install pycryptodome pycipher 
+pip install pycryptodome  
 ```
 
 ## Cara Penggunaan
